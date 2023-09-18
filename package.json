@@ -1,0 +1,23 @@
+{
+  "name": "constellation-3d-graph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D particle force-directed network graph visualizing interconnected nodes, ontological schemas, and hierarchical graph clusters.",
+  "author": "Wajid Raza <wajidrazapk@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.88.0"
+  }
+}
